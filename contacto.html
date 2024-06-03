@@ -1,0 +1,58 @@
+<html>
+<head>
+ <link href="styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<header>
+    <h1>Deja un mensaje y un encargado de Artech se pondrá en contacto contigo</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+<div>
+<form id="formulario">
+  <ul>
+    <li>
+      <label for="name">Nombre:</label>
+      <input type="text" id="Nombre"  required />
+    </li>
+    <li>
+      <label for="mail">Correo electrónico:</label>
+      <input type="text" id="email"  required />
+    </li>
+	<li>
+	<label for="name">solitud de valores:</label>
+	<select id="tipoSolicitud" name="tipoSolicitud">
+  <option value="compra">compra</option>
+  <option value="cosulta" selected>consulta</option>
+  <option value="venta">Venta</option>
+</select>
+</li>
+    <li>
+      <label for="msg">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+    </li>
+  </ul>
+   <button onClick="validar();">Validar</button>
+</form>
+
+<div/>
+<section id="contacto">
+    <h1>informac&iacute;on de contacto</h1>
+        <p>Direcci&oacute;n:
+            Av. Providencia 9875
+		
+        <p>WhatsApp:
+            +569 1234567895</p>
+
+        </form>
+</section>
+
+<script src="javascript/contacto.js"></script>
+</body>
+</html>
